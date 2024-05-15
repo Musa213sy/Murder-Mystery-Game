@@ -6,6 +6,7 @@ import { Suspects } from './Pages/Suspects';
 import{HashRouter,Routes,Route} from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Home } from './Pages/Hpme';
+import {username} from './Pages/username';
 function App() {
   return (
     
@@ -37,6 +38,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/Instructions' element={<Instructions />}/>
         <Route path='/Suspects' element={<Suspects />}/>
+        <Route path='/username' element={<username />}/>
       </Routes>
      </HashRouter>
     </div>
